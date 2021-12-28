@@ -8,7 +8,7 @@ I am a dedicated teaching professional with a passion for education and a strong
 
 ### ACADEMIC BACKGROUND
 
-- **RS School (IT school)**: 2021-present | Trainee
+- **RS School (IT school)**: 2021-present – Trainee
 
 *Specialty: Java Script, HTML, CSS: Introductory course*
 
