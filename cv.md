@@ -4,7 +4,7 @@
 
 I am a dedicated teaching professional with a passion for education and a strong commitment to optimising students‘ success – currently looking for a position of an English teacher in an IT company 
 
-##
+
 
 ### ACADEMIC BACKGROUND
 
@@ -24,7 +24,7 @@ I am a dedicated teaching professional with a passion for education and a strong
 
 *Specialty: English & French languages and foreign literature*
 
-##
+
 
 ### WORK EXPERIENCE
 
@@ -40,7 +40,7 @@ I am a dedicated teaching professional with a passion for education and a strong
 
 *Responsibilities: prepared and conducted corporate English lessons (General English and English for IT) for mixed-ability groups offline and online*
 
-##
+
 
 ### INTERNATIONAL PROJECTS
 
@@ -48,7 +48,7 @@ I am a dedicated teaching professional with a passion for education and a strong
 
 - **Erasmus+ project "New mechanisms of partnership-based governance and standardization of vocational teacher education in Ukraine" (PAGOSTE)**: work as a translator and interpreter (2020-2023)
 
-##
+
 
 ### CONTACT DETAILS
 
