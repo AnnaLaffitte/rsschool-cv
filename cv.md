@@ -1,5 +1,3 @@
-## CV
-
 # **HANNA KORNIUSH**
 
 I am a dedicated teaching professional with a passion for education and a strong commitment to optimising students‘ success – currently looking for a position of an English teacher in an IT company 
