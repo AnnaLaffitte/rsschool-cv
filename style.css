@@ -1,1 +1,257 @@
-hjk
+:root {  
+    --color-basic-mocha: #967969;  
+    --color-nude: #F2D2BD;  
+    --color-sand: #C2B280;  
+    --color-header: #6F4E37;
+    --underline-offset: 7px;
+}
+    * 
+    {  margin: 0px;  
+       padding: 0px;
+    }
+    
+    body {  
+        display: flex;  
+        flex-direction: column;  
+        min-height: 100vh;  
+        font-family: "Roboto", sans-serif;  
+        font-size: 16px;  
+        line-height: 24px;
+    }
+    body.body-lock {  
+        overflow: hidden;
+    }
+    main {  
+        flex: 1;
+    }
+    
+    a {  
+        text-decoration: none;  
+        color: (var(--color-nude));
+    }
+    a:hover {  
+        text-decoration: underline;  
+        text-decoration-line: underline;  
+        text-underline-offset: var(-underline-offset);  
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+    h1,
+    h2,
+    .section-title {  
+        font-family: "Roboto", sans-serif;
+    }
+    p,
+    li {  
+        margin-top: 8px;
+    }
+    li {  
+        list-style-type: disc;
+    }
+    .container {  
+        max-width: 1440px;  
+        margin: 0 auto;  
+        padding: 0 40px;
+    }
+    
+    .header {  
+        color: var(--color-basic-mocha);  
+        background-color: var(--color-nude);
+    }
+    .header-profile {  
+        position: relative;  
+        display: flex;  
+        justify-content: space-between;  
+        align-items: center;  
+        padding: 40px 0;
+    }
+    .profile-name {  
+        font-size: 62px;  
+        line-height: 80px;
+    }
+    .profile-job {  
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .header-photo {  
+        display: block;  
+        width: 200px;  
+        height: 200px;  
+        border-radius: 50%;
+    }
+    
+    .main-content {  
+        display: flex;  
+        margin-top: 50px;  
+        margin-bottom: 50px;  
+        flex-wrap: wrap;    
+        row-gap: 50px;
+        background: var (--color-sand)
+    }
+    .section-main { 
+         width: calc(100%);
+         color: var(--color-basic-mocha);
+         background: var (--color-sand)
+        }
+    .section-title {  
+        margin-bottom: 15px;  
+        font-size: 28px;  
+    }
+    .section-item {  
+        text-decoration: none;
+    }
+    .section-link:hover .link-text {  
+        text-decoration: underline;  
+        text-decoration-line: underline;  
+        text-underline-offset: var(--underline-offset);
+    }
+    .link-img {  
+        display: inline-block;  
+        margin-bottom: -7px;
+    }
+    .link-text {  
+        display: inline-block;  
+        margin-left: 5px;  
+        padding-bottom: 2px;
+    }
+    
+    .work-title {  
+            margin-top: 5px;  
+            font-weight: 700;
+            margin-left: 15px; 
+        }
+    
+    .responsibilities {  
+        list-style-type: disc; 
+        margin-left: 0px;  
+        font-style: oblique;
+    }
+    .academic-title {  
+        margin-top: 5px;  
+        font-weight: 700;
+        margin-left: 15px; 
+    }
+    .specialty {  
+    list-style-type: disc; 
+    margin-left: 0px;  
+    font-style: oblique;
+    }
+    
+    .footer {  
+        border-top: 1px solid var(--color-header);
+    }
+    
+    .footer-contents {  
+        display: flex;  
+        justify-content: space-between;  
+        align-items: center;  
+        padding: 30px 0;
+    }
+    .logo-logo-rs{  
+        width: 70px;
+    }
+    
+    @media (max-width: 950px) {  
+        body {    
+            font-size: 16px;    
+            line-height: 22px;  
+             }  
+             p,  li {    
+                margin-top: 15px;  
+            }  
+            .profile-name {   
+                font-size: 36px;    
+                line-height: 60px;  
+            }  
+            .profile-job {    
+                font-size: 18px;  
+            }  
+                
+            .header-photo {    
+                max-width: 150px;    
+                max-height: 150px;  
+            }  
+            
+            .main-content {    
+                column-gap: 30px;    
+                row-gap: 30px;  
+            }  
+            .section-title {    
+                margin-bottom: 12px;    
+                font-size: 24px;  
+            }  
+                
+            .section-main {    
+                width: calc(100% - 250px - 30px);  
+            }  
+            
+            @media (max-width: 768px) {  
+            .container {    
+                padding: 0 30px;  
+            }  
+            .header-photo {    
+                max-width: 100px;    
+                max-height: 100px;  
+            }  
+            .main-content {    
+                flex-direction: column;    
+                row-gap: 30px;  
+            }  
+            .section {    
+                background-color: transparent;  
+            }  
+            .section-main {    
+                width: 100%;  
+            }  
+        }
+            @media (max-width: 500px) {  
+                .container {    
+                    padding: 0 15px;  
+                }  
+                .header-profile {    
+                    flex-direction: column;    
+                    padding: 40px 0;  
+                }  
+                .profile-information {    
+                    margin-bottom: 40px;  
+                }  
+                .profile-name {    
+                    font-size: 36px;  
+                }  
+                .profile-job {    
+                    text-align: center;  
+                }  
+                .header-photo {    
+                    max-width: 180px;    
+                    max-height: 180px;  
+                }  
+                .burger-button {    
+                    display: flex;  
+                }  
+                .main-content {    
+                    row-gap: 20px;  
+                }  
+                .section-title {   
+                     margin-top: 20px;  
+                    }   
+                }
+            }
+            @media (max-width: 400px) {  
+                .container {   
+                    padding: 0 15px;  
+                }  
+                .profile-information {    
+                    margin-bottom: 30px;  
+                }  
+                .profile-name {    
+                    font-size: 28px;    
+                    line-height: 46px;  
+                }  
+                .profile-job {    
+                    font-size: 16px;  
+                }  
+                .header-photo {   
+                    max-width: 150px;    
+                    max-height: 150px;
+                }
+            }
